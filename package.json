@@ -1,6 +1,6 @@
 {
   "name": "safe-decorator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "decorator function to catch and return default value",
   "main": "index.js",
   "scripts": {
