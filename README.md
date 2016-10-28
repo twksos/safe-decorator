@@ -7,7 +7,7 @@ decorator function to catch and return default value
 method with `@safe` or `@safe()` will return null when exception thrown. 
 
 ```javascript
-import safe from 'safe';
+import safe from 'safe-decorator';
 
 class Subject {
     @safe
@@ -24,7 +24,7 @@ expect(subject.subjectMethod()).toBe(null);
 method with `@safe(defaultValue)` return `defaultValue` when exception thrown. 
 
 ```javascript
-import safe from 'safe';
+import safe from 'safe-decorator';
 
 class Subject {
     @safe('default value')
