@@ -1,0 +1,43 @@
+{
+  "name": "safe-decorator",
+  "version": "0.1.0",
+  "description": "decorator function to catch and return default value",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel-node spec/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twksos/safe-decorator.git"
+  },
+  "keywords": [
+    "safe",
+    "decorator",
+    "safe-decorator"
+  ],
+  "author": {
+    "name": "twksos",
+    "email": "twksos@gmail.com",
+    "url": "http://twksos.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twksos/safe-decorator/issues"
+  },
+  "homepage": "https://github.com/twksos/safe-decorator#readme",
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-class-properties": "^6.18.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "cross-spawn": "^4.0.0",
+    "eslint": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-run": "^1.7.1",
+    "jasmine": "^2.5.2"
+  }
+}
